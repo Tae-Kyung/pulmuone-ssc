@@ -1,0 +1,16 @@
+{
+  "name": "pulmuone-ssc",
+  "private": true,
+  "scripts": {
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "lint": "turbo lint",
+    "db:generate": "turbo db:generate --filter=@ssc/db",
+    "db:push": "turbo db:push --filter=@ssc/db",
+    "db:studio": "turbo db:studio --filter=@ssc/db"
+  },
+  "packageManager": "pnpm@10.28.2",
+  "pnpm": {
+    "onlyBuiltDependencies": ["esbuild"]
+  }
+}
