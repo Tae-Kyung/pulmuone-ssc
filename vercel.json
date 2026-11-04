@@ -1,5 +1,3 @@
 {
-  "buildCommand": "cd apps/web && next build",
-  "installCommand": "pnpm install",
-  "framework": "nextjs"
+  "$schema": "https://openapi.vercel.sh/vercel.json"
 }
